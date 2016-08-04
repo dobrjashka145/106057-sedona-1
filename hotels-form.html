@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Седона Поиск гостиницы</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header class="no-js-header container clearfix">
+      <div class="container">
+        <nav class="main-menu clearfix">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
+            <li><a class="open-map" href="map.html">Карта штата</a></li>
+          </ul>
+          <div class="main-menu-logo">
+            <a href="index.html"><img src="img/sedona-logo.png" width="138" height="70" alt="logo Sedona"></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+            
+    <div class="no-js-search-hotels container">
+      
+      <h2 class=" no-js-header-form header-hotels-form">Поиск гостиницы в Седоне</h2>
+      <div class="no-js-form modal-hotels-form">
+        
+        <form name="search-hotels" action="#" method="post">
+          <p>
+            <label for="hotel-entry-date">Дата заезда:</label>
+            <input id="hotel-entry-date" type="date" name="entry-date" value="24 апреля 2016" required>
+          </p>
+          <p>
+            <label for="hotel-exit-date">Дата выезда:</label>
+            <input id="hotel-exit-date" type="date" name="exit-date" value="4 июля 2016" required>
+          </p>
+          <p>
+            <label for="visitor-adult">Взрослые:</label>
+			  <span class="visitor-minus"></span>
+			  <input class="visitor" id="visitor-adult" type="text" name="adult" value="2">
+			  <span class="visitor-plus"></span>
+			  
+            
+            <label for="visitor-child">Дети:</label>
+			<span class="visitor-minus"></span>
+            <input class="visitor" id="visitor-child" type="text" name="child" value="0">
+			<span class="visitor-plus"></span>
+          </p>
+          <input type="submit" value="Найти" >
+        </form>
+      </div>
+    </div>
+      
+     
+    <footer class="container">
+      <div class="footer-block footer-hashtag">
+        <h2><a href="#">#visitsedona</a></h2>
+      </div>
+    
+      <div class="footer-block footer-social">
+        <a class="social-btn" href="#"><img src="img/icon-twitter.png" width="17" height="15" alt="twitter"></a>
+        <a class="social-btn" href="#"><img src="img/icon-fb.png" width="10" height="19" alt="fb"></a>
+        <a class="social-btn" href="#"><img src="img/icon-youtube.png" width="20" height="16" alt="youtube"></a>
+      </div>
+    
+      <div class="footer-block footer-copyright">
+        <p>Website by
+          <a href="#"></a>
+        </p>
+      </div>
+    </footer>
+	
+   </body>
+</html>
