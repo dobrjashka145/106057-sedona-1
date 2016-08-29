@@ -1,6 +1,10 @@
+html {
+  background-color: #ffffff;
+}
 body {
-  min-width: 1300px;
-  margin: 0;
+  width: 1280px;
+  background: #f2f2f2;
+  margin: 0 auto;
   padding: 0;
   
   font-family: "PT Sans", "Arial", sans-serif;
@@ -86,10 +90,13 @@ p {
 }
 
 .container {
-  min-width: 768px;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
+}
+
+.container.wrapper {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2); 
 }
 
 .no-js-container {
@@ -105,10 +112,13 @@ p {
   clear: both;
 }
 
-/*Стили хедера страницы index.html*/
+/*=================================
+  Стили хедера страницы index.html
+  =================================*/
 .main-header {
   height: 573px;
   background: url("../img/sedona-background.jpg") 0 3px no-repeat #97a2a9;
+  background-size: 100% auto;
   overflow: hidden;
 }
 
@@ -160,6 +170,7 @@ p {
   width: 138px;
   height: 70px;
   margin-left: 37px;
+  cursor: pointer;
 }
 
 .main-menu a {
@@ -201,18 +212,21 @@ p {
 }
 
 .main-mask img {
-  width: 100%; 	
-}
+  width: 100%;
+  height: 273px;  }
 
-/*Стили хедера страницы hotels.html*/
+/*=================================
+  Стили хедера страницы hotels.html
+  =================================*/
 .inner-header {
   min-height: 273px;
   background: url("../img/sedona-background-2.jpg") 0 3px no-repeat #607e99;
+  background-size: 100% auto;
   overflow: hidden;
 }
 
-.hotels-features {
-  margin-top: 12px;
+form.hotels-features {
+  margin-top: 13px;
   margin-left: 16px;
   color: #ffffff;
   background-color: transparent;	
@@ -228,6 +242,7 @@ p {
   text-align: left;
 }
 
+/*Стили фильтра характеристик гостиницы (чекбоксы)*/
 .form-hotel-select {
   float: left;
   width: 200px;
@@ -258,21 +273,23 @@ p {
   height: 27px;
   margin-right: 14px;
   vertical-align: middle;
-  background: url("../img/sprite.png") -46px -177px no-repeat;	
+  background: url("../img/sprite.png") -46px -177px no-repeat;
+  cursor: pointer;  
 }
 
 .form-hotel-select input:checked + label::before {
-  background: url("../img/sprite.png") -2px -177px no-repeat;	
+  background: url("../img/sprite.png") -2px -177px no-repeat;
 }
 
 .form-hotel-select input:disabled + label::before {
-  background: url("../img/sprite.png") -44px -220px no-repeat;	
+  background: url("../img/sprite.png") -44px -220px no-repeat;
 }
 
 .form-hotel-select input:checked:disabled + label::before {
   background: url("../img/sprite.png") -1px -220px no-repeat;	
 }
 
+/*Стили фильтра цены гостиницы*/
 .form-hotel-price {
   float: right;
   min-width: 250px;
@@ -390,6 +407,7 @@ p {
   text-transform: uppercase;
   background-color: transparent;
   border: 2px solid #ffffff;
+  cursor: pointer;
 }
 
 .form-hotel-price button[type="submit"]:hover {
@@ -397,7 +415,9 @@ p {
   background-color: #ffffff;
 }
 
-/*Стили основного контента страницы index.html*/
+/*============================================
+  Стили основного контента страницы index.html
+  ============================================*/
 .main-text {
   padding: 0 320px;
   padding-top: 24px;
@@ -522,7 +542,11 @@ p {
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
-/*Стили основного контента страницы hotels.html*/
+/*=============================================
+  Стили основного контента страницы hotels.html
+  =============================================*/
+
+/*Стили шапки с сортировкой*/
 .hotels-sorting-header {
   padding: 0 70px;
   padding-top: 3px;
@@ -614,6 +638,7 @@ p {
   color: #81b3d2;
 }
 
+/*Стили карточки гостиницы*/
 .hotel-item {
   text-align: left;
   border-bottom: 2px solid #e5e5e5;
@@ -738,7 +763,9 @@ p {
   background-color: #f2f2f2;
 }
 
-/*Стили футера*/
+/*============
+  Стили футера
+  ============*/
 .footer-block {
   display: inline-block;
   width: 33%;
@@ -807,7 +834,9 @@ p {
   background-position: -112px -145px;
 }
 
-/*Всплывающие окна*/
+/*================
+  Всплывающие окна
+  ================*/
 @-webkit-keyframes emergence {
   0%   {-webkit-transform: scaleX(0) scaleY(1);transform: scaleX(0) scaleY(1);}
   100% {-webkit-transform: scaleX(1) scaleY(1);transform: scaleX(1) scaleY(1);}
@@ -936,19 +965,20 @@ p {
   top: 13px;
   padding-left: 14px;
   padding-right: 30px;
-  background-image: url("../img/sprite.png");
+  background-image: url("../img/calendar.png");
   background-repeat: no-repeat;
-  background-position: 314px -33px;
+  background-position: 315px 7px;
+  
 }
 
 .modal-hotels-form input[name="entry-date"]:hover,
 .modal-hotels-form input[name="exit-date"]:hover {
-  background-position: 314px -77px;
+  background-image: url("../img/calendar-hover.png");
 }
 
 .modal-hotels-form input[name="entry-date"]:active,
 .modal-hotels-form input[name="exit-date"]:active {
-  background-position: 314px -121px;
+  background-image: url("../img/calendar-down.png");
 }
 
 .modal-hotels-form .visitor {
@@ -966,6 +996,7 @@ p {
   height: 36px;
   vertical-align: middle;
   border: none;
+  cursor: pointer;
 }
 
 .visitor-minus {
@@ -1020,13 +1051,14 @@ p {
   text-transform: uppercase;
   background-color: #81b3d2;
   border: none;
+  cursor: pointer;
 }
 
-.modal-hotels-form input[type="submit"]:hover {
+.modal-hotels-form button[type="submit"]:hover {
   background-color: #669ec0;	
 }
 
-.modal-hotels-form input[type="submit"]:active {
+.modal-hotels-form button[type="submit"]:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #5498bd;
 }
