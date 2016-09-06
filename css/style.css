@@ -84,7 +84,7 @@ h2 {
 }
 
 p {
-  padding: 4px 0;	
+  padding: 4px 0;
 }
 
 .container {
@@ -121,7 +121,7 @@ p {
 }
 
 .no-js-header {
-  background-color: #ffffff;	
+  background-color: #ffffff;  
 }
 
 .main-menu {
@@ -160,7 +160,7 @@ p {
   padding-left: 32px;
 }
 .main-menu li:last-child {
-  padding-right: 32px;	
+  padding-right: 32px;
 }
 
 .main-menu-logo {
@@ -174,7 +174,7 @@ p {
 .main-menu a {
   color: #000000;
   font-size: 14px;
-  text-decoration: none;	
+  text-decoration: none;
 }
 
 .main-menu a:hover {
@@ -182,11 +182,11 @@ p {
 }
 
 .main-menu a:active {
-  opacity: 0.3;	
+  opacity: 0.3;
 }
 
 .main-menu .current {
-  color: #766357;	
+  color: #766357;
 }
 
 .main-menu .current:hover {
@@ -194,7 +194,7 @@ p {
 }
 
 .main-menu .current:active {
-  opacity: 0.3;	
+  opacity: 0.3;
 }
 
 .main-welcome {
@@ -211,7 +211,8 @@ p {
 
 .main-mask img {
   width: 100%;
-  height: 273px;  }
+  height: 273px;
+}
 
 /*=================================
   Стили хедера страницы hotels.html
@@ -227,7 +228,7 @@ form.hotels-features {
   margin-top: 13px;
   margin-left: 16px;
   color: #ffffff;
-  background-color: transparent;	
+  background-color: transparent;
 }
 
 .hotels-features legend {
@@ -252,7 +253,7 @@ form.hotels-features {
 .form-hotel-select ul {
   margin: 0;
   padding: 0;
-  list-style: none;	
+  list-style: none;
 }
 
 .form-hotel-select li {
@@ -261,7 +262,7 @@ form.hotels-features {
 }
 
 .form-hotel-select input {
-  display: none;	
+  display: none;
 }
 
 .form-hotel-select input + label::before {
@@ -272,7 +273,7 @@ form.hotels-features {
   margin-right: 14px;
   vertical-align: middle;
   background: url("../img/sprite.png") -46px -177px no-repeat;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .form-hotel-select input:checked + label::before {
@@ -284,7 +285,7 @@ form.hotels-features {
 }
 
 .form-hotel-select input:checked:disabled + label::before {
-  background: url("../img/sprite.png") -1px -220px no-repeat;	
+  background: url("../img/sprite.png") -1px -220px no-repeat;
 }
 
 /*Стили фильтра цены гостиницы*/
@@ -295,7 +296,7 @@ form.hotels-features {
   padding: 0;
   color: #ffffff;
   background-color: transparent;
-  border: none;	
+  border: none;
 }
 
 .form-hotel-price legend {
@@ -305,7 +306,7 @@ form.hotels-features {
 .form-hotel-price ul {
   margin: 0;
   padding: 0;
-  list-style: none;	
+  list-style: none;
 }
 
 .form-hotel-price li {
@@ -321,7 +322,7 @@ form.hotels-features {
   width: 30px;
   color: #ffffff;
   background-color: transparent;
-  border: none;	
+  border: none;
 }
 
 .hotel-price {
@@ -340,11 +341,11 @@ form.hotels-features {
   margin-left: -1px;
   width: 2px;
   height: 22px;
-  background-color: #ffffff;	
+  background-color: #ffffff;
 }
 
 .price-range {
-  position: relative;	
+  position: relative;
 }
 
 .price-range-line {
@@ -353,7 +354,7 @@ form.hotels-features {
   margin-left: 10px;
   margin-bottom: 31px;
   background-color: #ffffff;
-  opacity: 0.3;	
+  opacity: 0.3;
 }
 
 .price-medium-line {
@@ -385,19 +386,19 @@ form.hotels-features {
   left: 8px;
   background-color: #ababab;
   border-radius: 50%;
-  cursor: pointer;	
+  cursor: pointer;
 }
 
 .price-range-slide:hover::before {
-  background-color: #1c4f80;	
+  background-color: #1c4f80;
 }
 
 .slide-left {
-  left: 10px;	
+  left: 10px;
 }
 
 .slide-right {
-  left: 262px;	
+  left: 262px;
 }
 
 .form-hotel-price button[type="submit"] {
@@ -477,12 +478,12 @@ form.hotels-features {
 .feature-single-gift {
   background: url("../img/icon-gift.png") 50% 63px no-repeat transparent;
 }
-		
+
 .main-feature-single h2 {
   margin: 0;
   margin-bottom: 17px;
   padding: 0 80px;
-  line-height: 22px;	
+  line-height: 22px;
 }
 
 .feature-gray {
@@ -522,7 +523,7 @@ form.hotels-features {
 }
 
 .request-search-hotels p {
-  margin-bottom: 47px;	
+  margin-bottom: 47px;
 }
 
 .header-hotels-form {
@@ -550,14 +551,14 @@ form.hotels-features {
 .hotels-sorting-header {
   padding: 0 70px;
   padding-top: 3px;
-  text-align: left;	
-  border-bottom: 2px solid #e5e5e5;	
+  text-align: left;  
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .hotels-sorting-header span,
 .hotels-sorting-header p {
   display: inline-block;
-  vertical-align: middle;	
+  vertical-align: middle;
 }
 
 .hotels-sorting-header span {
@@ -573,7 +574,7 @@ form.hotels-features {
 .hotels-sorting-header p {
   margin-right: 37px;
   font-size: 12px;
-  line-height: 18px;	
+  line-height: 18px;
 }
 
 .hotels-sorting-header  > a {
@@ -587,19 +588,19 @@ form.hotels-features {
 }
 
 .hotels-sorting-header > a:hover {
-  color: #81b3d2;  	
+  color: #81b3d2;
 }
 
 .hotels-sorting-header > a:active {
   color: #000000;
-  border-bottom: none;  
+  border-bottom: none;
 }
 
 .hotels-sorting-header .current,
 .hotels-sorting-header .current:hover,
 .hotels-sorting-header .current:active {
   color: #81b3d2;
-  border: none;	
+  border: none;
 }
 
 .sorting-arrow {
@@ -814,7 +815,7 @@ form.hotels-features {
 }
 
 .social-btn:active img {
-  opacity: 0.3;	
+  opacity: 0.3;  
 }
 
 .footer-copyright a {
@@ -889,7 +890,7 @@ form.hotels-features {
   padding: 0 55px;
   padding-top: 38px;
   background: #ffffff;
-  box-shadow: 0 8px 8px rgba(104, 104, 104, 0.5);	
+  box-shadow: 0 8px 8px rgba(104, 104, 104, 0.5);  
 }
 
 .modal-hotels-form form {
@@ -916,7 +917,7 @@ form.hotels-features {
   line-height: 18px;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  border: none;  
+  border: none;
 }
 
 .modal-hotels-form input:hover {
@@ -938,7 +939,6 @@ form.hotels-features {
   background-image: url("../img/calendar.png");
   background-repeat: no-repeat;
   background-position: 315px 7px;
-  
 }
 
 .modal-hotels-form input[name="entry-date"]:hover,
@@ -1002,12 +1002,12 @@ form.hotels-features {
 }
 
 .modal-hotels-form label[for="visitor-adult"] {
-  margin-right: 47px;	
+  margin-right: 47px;
 }
 
 .modal-hotels-form label[for="visitor-child"] {
   margin-left: 53px;
-  margin-right: 25px;	
+  margin-right: 25px;
 }
 
 .modal-hotels-form button[type="submit"] {
@@ -1025,7 +1025,7 @@ form.hotels-features {
 }
 
 .modal-hotels-form button[type="submit"]:hover {
-  background-color: #669ec0;	
+  background-color: #669ec0;
 }
 
 .modal-hotels-form button[type="submit"]:active {
@@ -1035,7 +1035,7 @@ form.hotels-features {
 
 .modal-error {
   -webkit-animation: pulse 0.6s forwards;
-          animation: pulse 0.6s forwards;	
+          animation: pulse 0.6s forwards;
 }
 
 .modal-map {
@@ -1050,7 +1050,7 @@ form.hotels-features {
   margin-left: -390px;
   background: #e9e9dc;
   border: 7px solid white;
-  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);	
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
 .no-js-map {
@@ -1060,11 +1060,11 @@ form.hotels-features {
   height: 561px;
   margin: 0 auto;
   border: 7px solid white;
-  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);	
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
 .modal-show {
   display: block;
   -webkit-animation: emergence 0.6s;
-          animation: emergence 0.6s;	
+          animation: emergence 0.6s;
 }
